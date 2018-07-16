@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script>
+	$(document).ready(function(){
+    $("#read").click(function(){
+        $(".this").toggle();
+    });
+});
+</script>
+<style>
+.main
+{
+	width:20%;
+	height: 50%;
+	background:#ffcccc;
+	padding: 10px;
+	border-radius: 10px;
+
+	transition: 0.2s;
+}
+.main:hover
+{
+	transform: scale(1.01);
+	box-shadow: 0 2px 15px 0 ;
+}
+.photo img
+{
+	width: 100%;
+	border-radius: 10px;
+	box-shadow: 0 2px 10px 2px;
+}
+.this
+{
+	display: none;
+}
+.text .read:hover
+{
+	cursor: pointer;
+}
+
+</style>
+<body>
+<div class="main">
+<div>
+	<div class="photo">
+		<img src="C:\wamp\www\logo\AI1920.png">
+	</div>
+	<div class="text">
+		<h2>Artificial intelligence</h2>
+		<p>The scope of AI is disputed: as machines become increasingly capable, tasks considered as requiring "intelligence" are often removed from the definition, a phenomenon known as the AI effect, leading to the quip, "AI is whatever hasn't been done yet </p>
+		<p id="read">Read more</p>
+		<p class="this">For instance, optical character recognition is frequently excluded from "artificial intelligence", having become a routine technology</p>
+	</div>
+	</div>
+
+	<div>	
+		<div>
+			
+		</div>
+	</div>
+</div>
+</body>
+</html>

@@ -1,0 +1,40 @@
+
+/*Bootstrap 4 Grids*/
+.col-sm-4:nth-child(even) {
+    background: #f5f6fa;
+    
+}
+.col-sm-4,.col-sm-8,.col-sm-6,.col-sm-12
+{
+	text-align: center;
+}
+/*Table*/
+.table
+{
+	text-align: center;
+}
+/*jumbotron jumbotron-fluid*/
+.jumbotron .container img
+{
+	transition: 1s;
+	cursor: pointer;
+}
+.jumbotron .container:hover>img
+{
+	transform: scale(1.1);
+	overflow: hidden;
+}
+/*Button*/
+.container .btn
+{
+	transition: .2s;
+}
+.container .btn:hover
+{
+	transform: scale(1.05);
+}
+/*group button*/
+.btn-group
+{
+	margin-left: 10%;
+}
